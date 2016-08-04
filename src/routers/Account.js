@@ -1,5 +1,4 @@
 var router  = require('express').Router();
-var jwt = require('jsonwebtoken');
 var config = require('../../config/server');
 var AuthController = require('../controllers/Authentication');
 
