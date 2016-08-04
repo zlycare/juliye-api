@@ -1,0 +1,46 @@
+{
+  "name": "juliye-api",
+  "version": "1.0.0",
+  "description": "Juliye REST API Services",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "mocha -R spec test/**/*.js",
+    "test-cov": "istanbul cover _mocha -- -u exports -R spec  test/**/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zlycare/juliye-api.git"
+  },
+  "keywords": [
+    "juliye",
+    "api",
+    "version2"
+  ],
+  "author": "Juliye Tech Group",
+  "contributors": [
+    {
+      "name": "Jacky Liu",
+      "email": "liujiaqi@zlycare.com"
+    }
+  ],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zlycare/juliye-api/issues"
+  },
+  "homepage": "https://github.com/zlycare/juliye-api#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "express-jwt": "^3.4.0",
+    "jsonwebtoken": "^7.1.7",
+    "lodash": "^4.14.1",
+    "require-dir": "^0.3.0"
+  },
+  "devDependencies": {
+    "mocha": "^2.2.5",
+    "supertest": "^1.2.0",
+    "chai": "^3.5.0",
+    "istanbul": "^0.4.2"
+  }
+}
