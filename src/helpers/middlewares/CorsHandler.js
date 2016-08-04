@@ -7,7 +7,7 @@ module.exports = function(options){
       console.log("on header call");
       // 更新client session
       res.setHeader('Access-Control-Allow-Origin', '*');
-      res.setHeader('Access-Control-Allow-Headers', 'Content-Type,Client-Session');
+      res.setHeader('Access-Control-Allow-Headers', 'Content-Type,Client-Session,Authorization');
       res.setHeader('Access-Control-Allow-Methods', 'PUT, GET, POST, DELETE, OPTIONS');
     //});
     next();
