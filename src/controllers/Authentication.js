@@ -1,5 +1,7 @@
-var _authAccount = function () {}
 var jwt = require('jsonwebtoken');
+var config = require('../../config/server');
+
+var _authAccount = function () {}
 
 exports.authUser = function(req, res){
     if(!req.body.username){

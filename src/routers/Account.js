@@ -1,5 +1,4 @@
 var router  = require('express').Router();
-var config = require('../../config/server');
 var AuthController = require('../controllers/Authentication');
 
 router.post("/sessions/loginc", AuthController.authUser);
