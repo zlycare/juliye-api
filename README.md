@@ -9,6 +9,7 @@
 
 ## TODO
 - Auth with JWT (JSON Web Token)
+- Upgrade Node Env To V4.4.7 (Latest LTS)
 - Code Style ESLint
 - ES6 Best Practice
 - General Error Handler
